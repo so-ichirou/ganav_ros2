@@ -1,9 +1,9 @@
 # ganav_ros2
 
 #realsenseノード
-cd Desktop/realsense_ws,
+`cd Desktop/realsense_ws
 source install/setup.bash:
-ros2 launch realsense2_camera rs_launch.py
+ros2 launch realsense2_camera rs_launch.py`
 
 推論エンジン
 conda activate ganav_env_final
