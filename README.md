@@ -15,5 +15,5 @@
 `source install/setup.bash`\
 `ros2 run semantic_segmentation_ros2 inference_node`
 
-rosbag
+## rosbag
 `ros2 bag record -o my_segmentation_bag /camera/camera/color/image_raw /segmentation/image /segmentation/overlay`
